@@ -1,0 +1,40 @@
+
+
+
+
+
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5; 
+    color: #ffffff;
+    width: 250px; height: 90px;
+    border: 2px solid #cccccc;
+    text-align: center;
+    padding-top: 22px;
+    margin-left: 30px;
+}
+
+.nav-item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 22px;
+}
+
+.nav-item a:hover {
+    color: red;
+}
+
+.nav-item a:focus {
+    color: black;
+}
+
+a {color: #cccccc;}
+a:link {text-decoration: none;}
+
+.background {
+    background-image: url("../images/rockywall2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid #dddddd;
+}    
