@@ -1,93 +1,91 @@
-<!DOCtype <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
 <head>
-    <meta charset="utf-8" />
-    <title>Page Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/BPabout.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/BPabout.css">
 </head>
 
 <body>
+               <!-- nav bar-->          
+    <nav class="navbar navbar-light pt-0 pr-5 pb-0 pl-5" style="background-color: #ffffff; border-bottom: 4px solid #dddddd;">   
 
-    <div class="container">
-                   
-        <div class="nav" style="background-color: #ffffff">   <!--row 1 nav bar-->
-
-            <div class="col-md-4" style="padding: 0;">
-                    <div class="name">
-                        <h1>John Kruse</h1>
-                    </div>
-            </div>
-
-            <div class="col-md-8" style="padding: 0;">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Contact">Contact</a>
-                    </li>
-                </ul>
-
-            </div>
-
-        </div>
+        <span class="name">John Kruse</span>
+                               
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact">Contact</a>
+            </li>
+        </ul>
+    </nav>    
+                       
+    <div class="background" style="background-image: url(assets/images/rockywall2.png)">    
+    
+        <div class="container-fluid">     
             
-        <div class="background" style="background-image: url(assets/images/rockywall2.png)">  
-            
-            <br>
-               
-            <div class="card" style="background-color: #ffffff">   <!--about me--> 
+                    <!--Row 1 about me card-->
+            <div class="row">
+
+                <div class="col-lg-1"></div> 
                 
-                <div class="card-body">
-                    <div class="about"><a>About Me</a></div>
+                <div class="col-lg-10 mt-5 mr-0 mb-5 ml-0">
 
-                    <div class="border"></div>               
+                    <div class="card-main" style="background-color: #ffffff">   
                 
-                    <img src="assets/images/john2(2).jpg" class="float-left" alt="John Kruse" width="14rem">
-                        <br>
-                    <div class="bio">
-                        <p>Hello!</p>  <p>My name is John.  Not long ago, I retired from the healthcare industry after 25 rewarding years 
-                        as a Magnetic Resonance Imaging Technologist.  I fiddled around with different smaller jobs mostly working
-                        outdoors, but soon felt I was missing something.  Knowing I still have a lot to contribute, the ambitious side of 
-                        me started snooping around computer programming as this has always piqued my interest.  After a little research, I 
-                        decided to enroll in a Full-Stack Web Development program offered at Denver University.  I hope to find a career 
-                        in web development after successful completion of the course.  Ideally, I would love to find an employer who will 
-                        allow me to work remotely but understand my options may be limited as a junior web developer.  This career is how I 
-                        intend to spend the remainder of my working life and I look forward to an exciting future with many options!
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque magna urna, hendrerit at augue non, congue molestie urna. Maecenas lobortis felis sit amet porta feugiat. Sed non finibus leo. Donec cursus quam quam, vel gravida velit lobortis eget. Nunc nec vulputate eros. Pellentesque at tristique diam. Maecenas pretium purus eu libero commodo semper. Nullam felis dui, faucibus quis purus et, fringilla commodo ipsum.</p>
+                        <div class="card-body m-1">
 
-                        <p>Donec ut tellus mattis, pretium justo sed, pulvinar risus. Nulla tempus felis id tempus rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla porttitor nunc velit, id finibus ante ullamcorper nec. Nam eget suscipit nibh. Nunc feugiat fermentum eros in rhoncus. Vestibulum egestas dolor et pulvinar facilisis. Curabitur ac tellus quis elit commodo dapibus. Sed facilisis mauris mauris, ut fermentum lectus scelerisque eu. Proin tincidunt, magna in vulputate tempus, eros elit lacinia est, at molestie justo urna ac risus.</p>
-                            
-                        <p>Cras tempus viverra placerat. Nulla pellentesque efficitur risus eu tristique. Nam imperdiet neque sed sem pellentesque, id molestie mauris mollis. Etiam vitae quam ut neque vehicula gravida. Proin fermentum libero malesuada purus mollis, a tincidunt velit placerat. Proin porta nec nibh quis commodo. Proin euismod sagittis ante, dapibus consequat nulla fermentum dignissim. Nam placerat nunc vitae lobortis porttitor. Praesent ut ultricies lorem, quis consequat felis. Donec quis massa consequat, aliquet magna quis, volutpat enim. In hac habitasse platea dictumst. Donec suscipit libero non risus aliquet, vel mattis eros euismod.</p>
-                            
-                        <p>Fusce imperdiet semper risus, non mollis augue vulputate quis. Nunc quis urna a augue congue imperdiet. In accumsan tempor velit, nec elementum nisl rutrum a. Fusce sodales, sem id rutrum sollicitudin, nisi purus tempor felis, vel semper ante nulla a ligula. Aliquam erat volutpat. Nullam tincidunt mi et nunc porta posuere. Fusce egestas est urna, non aliquam tortor luctus id.</p>
-                            
-                        <p>In efficitur pellentesque lobortis. Sed ac lorem at felis iaculis facilisis. Nam maximus nisl ut sollicitudin accumsan. Phasellus venenatis, eros in dictum porta, urna elit dictum nisi, vitae convallis diam est tincidunt sem. Donec sed odio et mauris ultrices varius. Praesent tincidunt enim at augue mollis, nec imperdiet sem cursus. Duis hendrerit, lectus sit amet tempus imperdiet, nisi massa volutpat nulla, gravida lacinia tellus diam eget tellus. Sed eget orci in velit tempus hendrerit id sed neque. Etiam congue quis tellus id rutrum. Donec pretium aliquam lorem sed imperdiet. Proin eu placerat purus, vestibulum placerat turpis. Quisque venenatis tincidunt mattis.</p>
-                    </div>
+                            <div class="about m-2" style="color: #4aaaa5;"><a>About Me</a></div>
 
+                                <div class="border"></div>
+                            
+                                    <!--Row 2 img-bio card-->
+                            <div class="row">
+                                <div class="card2 mt-4 ml-3" style="border-top: 4px #dddddd;">
+                                    <div class="card-body2">
+                                        <img class="card-img mr-3 mb-2" src="assets/images/john2(2).jpg" alt="John Kruse" style="width: 16rem; float: left;">
+                                    </div>
+
+                                    <div class="bio mr-5" style="color: #777777;">
+                                        <p>Hello!</p> 
+                                        <p>My name is John.  Not long ago, I retired from the healthcare industry after 25 rewarding years 
+                                            as a Magnetic Resonance Imaging Technologist.  I fiddled around with different smaller jobs mostly working
+                                            outdoors, but soon felt I was missing something.  Knowing I still have a lot to contribute, the ambitious side of 
+                                            me started snooping around computer programming as this has always piqued my interest.  After a little research, I 
+                                            decided to enroll in a Full-Stack Web Development program offered at Denver University.  I hope to find a career 
+                                            in web development after successful completion of the course.  Ideally, I would love to find an employer who will 
+                                            allow me to work remotely but understand my options may be limited as a junior web developer.  This career is how I 
+                                            intend to spend the remainder of my working life and I look forward to an exciting future with many options!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>             
                 </div>
-
-            </div> 
-
-            <br>
-
+                <div class="col-lg-1"></div>
+            </div>
         </div>
-                            <!--footer-->
-                            
-            <footer class="footer">
-
-                <div class="col-md-12" style="padding: 0;">
-                    <div class="footer-container" style="background-color: #666666"></div>
-                </div>
-
-            </footer>
-            
+        <br>
+        <br>
+        <br>  
     </div>
+                    <!--footer-->
+    
+        <footer class="footer" style="background-color: #666666">
+            <div class="container">
+                <span class="text-muted"></span>
+            </div>
+        </footer> 
+            
+    
     
 </body>
 </html>

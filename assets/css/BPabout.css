@@ -1,19 +1,19 @@
 
+
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
     background-color: #4aaaa5; 
     color: #ffffff;
-    width: 280px; height: 100px;
+    width: 220px; height: 80px;
     border: 2px solid #cccccc;
     text-align: center;
-    padding-top: 22px;
-    margin-left: 40px;
+    padding-top: 12px;   
 }
 
 .nav-item {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding-top: 22px;
+    font-size: 20px;   
 }
 
 .nav-item a:hover {
@@ -25,43 +25,30 @@
 }
 
 a {color: #cccccc;}
-a:link {text-decoration: none;}
+a:link {text-decoration: none; padding: 10px;}
 
 .background {
-    background-size: contain;
-    background-attachment: fixed;
-    border-top: 4px solid #dddddd;
-} 
-
-.card {
-    margin: 15px 40px;
-    padding: 5px 15px 0px 15px;
+    width: 100%; 
+    min-height: 100%;
+    position: absolute;
 }
 
 .about {
-    color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 26px;
-    border-bottom: 4px #dddddd;
-    margin-bottom: 10px;
-}
-
-.float-left {
-    padding-top: 20px;
-    width: 240px; height: 240px;
-    margin-right: 20px;
-    margin-top: 10px;
+    font-size: 26px;        
 }
 
 .bio {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
     font-size: 18px;
     line-height: 24px;
-    letter-spacing: 1px;
+    letter-spacing: 1px; 
 }
 
-.footer-container { 
+.footer { 
+    width: 100%;
     height: 70px;
     border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
 }
