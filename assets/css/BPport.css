@@ -47,7 +47,7 @@ a:link {text-decoration: none; padding: 7px;}
 .card {
     text-align: center;
     flex-direction: column;
-    box-shadow: 12px 12px 12px grey;
+    box-shadow: 0px 5px 40px;
     border-width: 0;
 }
 
