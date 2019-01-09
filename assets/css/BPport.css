@@ -49,6 +49,7 @@ a:link {text-decoration: none; padding: 7px;}
     flex-direction: column;
     box-shadow: 0px 5px 40px grey;
     border-width: 0;
+    
 }
 
 .btn {
@@ -58,7 +59,8 @@ a:link {text-decoration: none; padding: 7px;}
     left: 50%;
     transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
-    color: #cccccc;
+    color: wheat;
+    letter-spacing: 2px;
     background-color: #4aaaa5;
     font-size: 20px;
     cursor: pointer;
