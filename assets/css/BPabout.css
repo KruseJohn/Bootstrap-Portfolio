@@ -28,9 +28,7 @@ a {color: #cccccc;}
 a:link {text-decoration: none; padding: 7px;}
 
 .background {
-    background-position-x: 50%;
-    background-attachment: fixed;
-    width: 100%; 
+    background-size: cover;
     min-height: 100%;
     position: absolute;
 }

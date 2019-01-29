@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/BPport.css">
+
 </head>
 
 <body>
 
-    <!-- nav bar-->
+    <!-- nav bar -->
 
-    <nav class="navbar navbar-light pt-0 pr-5 pb-0 pl-5" style="background-color: #ffffff; border-bottom: 4px solid #dddddd;">   
+    <nav class="navbar navbar-light px-5">
 
-        <span class="name">John Kruse</span>
-                               
-        <ul class="nav">
+        <span class="name mr-auto">John Kruse</span>
+
+        <ul class="nav ml-auto py-2">
             <li class="nav-item">
                 <a class="nav-link" href="index.html">About Me</a>
             </li>
@@ -27,129 +30,196 @@
                 <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
-    </nav>    
-                       
-    <div class="background" style="background-image: url(assets/images/rockywall2.png)">    
-    
-        <div class="container-fluid">     
-            
+    </nav>
+
+    <div class="background" style="background-image: url(assets/images/web99.jpg)">
+
+        <div class="container">
+
             <!--Row 1 portfolio banner-->
 
             <div class="row">
-                <div class="col-lg-1"></div>               
-                    <div class="col-lg-2 p-0 mt-5">
-
-                        <div class="card-main" style="background-color: #e6c9a8">
-
-                             <div class="portfolio" style="color: #4aaaa5; box-shadow: 0px 0px 15px grey;"><a>Portfolio</a></div>        
-                        </div>
-                    </div>       
-                <div class="col-lg-9"></div>
+                
+                <div class="col-sm-4 mx-auto my-5">
+                    <div id="portfolio">Portfolio</div>
+                </div>
+                   
             </div>
 
             <!--Row 2 projects-->
 
             <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-4 p-0 mt-5">
+                
+                <div class="col-sm-3 mt-5">
 
-                    <div class="card" style="background-color: rgb(114, 111, 111); width: 20rem; ">
+                    <div class="card" style="background-color: rgb(219, 219, 219)">
 
-                        <img class="card-img-top" src="assets/images/locogif2.gif" alt="Train Scheduler" 
-                                                style="width: 320px; height: 240px; padding: 30px 50px 90px 30px; background-color: black;">
-                            
-                            <div class="card-body m-0 p-0">
-                                <a href="https://krusejohn.github.io/train/" class="btn btn-primary pt-1 pr-4 pb-1 pl-4">Train Scheduler</a>
+                        <img class="card-img-top" src="assets/images/crowd.gif" alt="Live Concert">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle px-3 py-2" type="button" id="dropdownMenuOffset"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="30,5">
+                                Where's My Music?
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                <a class="dropdown-item" href="https://krusejohn.github.io/Concerts/" target="_blank">Demo</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://github.com/KruseJohn/Concerts" target="_blank">Demo
+                                    Code (GitHub)</a>
                             </div>
+
+                        </div>
                     </div>
+
                 </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-3 p-0 mt-5">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 mt-5">
 
-                    <div class="card" style="background-color: rgb(114, 111, 111); width: 20rem; ">
+                    <div class="card" style="background-color: rgb(219, 219, 219)">
 
-                        <img class="card-img-top" src="assets/images/digit.gif" alt="crypto" style="width: 320px; height: 240px;">
-                            
-                            <div class="card-body p-0 m-0">
-                                <a href="https://krusejohn.github.io/unit-4-game/" class="btn btn-primary pt-1 pr-4 pb-1 pl-4">Crypto Game</a>
+                        <img class="card-img-top" src="assets/images/friends4.gif" alt="Superheroes">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle px-3 py-2" type="button" id="dropdownMenuOffset"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="30,5">
+                                Superheroes!
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                <a class="dropdown-item" href="https://krusejohn.github.io/Superheroes/" target="_blank">Demo</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://github.com/KruseJohn/Superheroes" target="_blank">Demo
+                                    Code (GitHub)</a>
                             </div>
+                        </div>
                     </div>
+
                 </div>
-                <div class="col-md-3"></div>
-            </div> 
-            
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 my-5">
+
+                    <div class="card" style="background-color: rgb(219, 219, 219)">
+
+                        <img class="card-img-top" src="assets/images/digit.gif" alt="cryptocurrency">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle px-3 py-2" type="button" id="dropdownMenuOffset"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="30,5">
+                                Crypto Game
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                <a class="dropdown-item" href="https://krusejohn.github.io/CryptoCollector/" target="_blank">Demo</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://github.com/KruseJohn/CryptoCollector" target="_blank">Demo
+                                    Code (GitHub)</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+
             <!--Row 3 projects-->
 
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-4 p-0 mt-5">
+            <div class="row mb-5">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 mt-5">
 
-                    <div class="card" style="background-color: rgb(114, 111, 111); width: 20rem; ">
+                    <div class="card" style="background-color: rgb(219, 219, 219)">
 
-                        <img class="card-img-top" src="assets/images/2ROC.gif" alt="Psychic Game" style="width: 320px; height: 240px;">
-                        
-                            <div class="card-body m-0 p-0">
-                                <a href="https://krusejohn.github.io/Psychic-Game/" class="btn btn-primary pt-1 pr-4 pb-1 pl-4">The Psychic Game</a>
+                        <img class="card-img-top" src="assets/images/loco3.gif" alt="Train Scheduler">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle px-3 py-2" type="button" id="dropdownMenuOffset"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="30,5">
+                                Train Scheduler
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                <a class="dropdown-item" href="https://krusejohn.github.io/train/" target="_blank">Demo</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://github.com/KruseJohn/train" target="_blank">Demo
+                                    Code (GitHub)</a>
                             </div>
+                        </div>
+
                     </div>
+
                 </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-3 p-0 mt-5">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 mt-5">
 
-                    <div class="card" style="background-color: rgb(114, 111, 111); width: 20rem; ">
+                    <div class="card" style="background-color: rgb(219, 219, 219)">
 
-                        <img class="card-img-top" src="assets/images/usa.gif" alt="us map" style="width: 320px; height: 240px;">
-                        
-                            <div class="card-body p-0 m-0">
-                                <a href="https://krusejohn.github.io/TriviaGame/" class="btn btn-primary pt-1 pr-4 pb-1 pl-4">United States Trivia!</a>
+                        <img class="card-img-top" src="assets/images/usa2.gif" alt="us map">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle px-3 py-2" type="button" id="dropdownMenuOffset"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="30,5">
+                                United States Trivia!
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                <a class="dropdown-item" href="https://krusejohn.github.io/TriviaGame/" target="_blank">Demo</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://github.com/KruseJohn/TriviaGame" target="_blank">Demo
+                                    Code (GitHub)</a>
                             </div>
+                        </div>
+
                     </div>
+
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 mt-5">
+
+                    <div class="card" style="background-color: rgb(219, 219, 219)">
+
+                        <img class="card-img-top" src="assets/images/2ROC.gif" alt="Psychic Game">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle px-3 py-2" type="button" id="dropdownMenuOffset"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="30,5">
+                                The Psychic Game
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                <a class="dropdown-item" href="https://krusejohn.github.io/Psychic-Game/" target="_blank">Demo</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://github.com/KruseJohn/Psychic-Game" target="_blank">Demo
+                                    Code (GitHub)</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
-                                
+
             <!--Row 4 projects-->
 
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-4 p-0 mt-5 mb-5">
-    
-                    <div class="card" style="background-color: rgb(114, 111, 111); width: 20rem; ">
-    
-                        <img class="card-img-top" src="assets/images/friends4.gif" alt="Superheroes" style="width: 320px; height: 240px;">
-                            
-                            <div class="card-body m-0 p-0">
-                                <a href="https://krusejohn.github.io/GifTastic/" class="btn btn-primary pt-1 pr-4 pb-1 pl-4">Superheroes!</a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-3 p-0 mt-5">
-
-                    <div class="card" style="background-color: rgb(114, 111, 111); width: 20rem; ">
-
-                        <img class="card-img-top" src="assets/images/jumbo1.gif" alt="Live Concert" style="width: 320px; height: 240px;">
-                        
-                            <div class="card-body p-0 m-0">
-                                <a href="https://davidsrepos.github.io/Project1/" class="btn btn-primary pt-1 pr-4 pb-1 pl-4">Where's My Music!</a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-md-3"></div>
+            <div class="row mb-5">
+                <div class="col-sm-12 mb-5"></div>
             </div>
-            <br>
-            <br>
-            <br>
-        </div> 
+        </div>
     </div>
 
     <!--footer-->
-    
+
     <footer class="footer" style="background-color: #666666">
         <div class="container">
             <span class="text-muted"></span>
         </div>
-    </footer> 
-            
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
