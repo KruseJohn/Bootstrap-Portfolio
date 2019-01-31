@@ -1,0 +1,64 @@
+
+
+html, body, #banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("../images/web411.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    opacity: .6;
+}
+
+#left-banner {
+    background-image: linear-gradient(to right, transparent 20%, inherit);
+    border: 1px transparent;
+    opacity: .69;
+    box-shadow: 0 0 8px 8px transparent;
+}
+
+#middle-banner {
+    background-color: inherit;
+    border: 2px solid inherit;
+    color: white;
+    opacity: 1;
+}
+
+#right-banner {
+    background-image: linear-gradient(to left, transparent 20%, inherit);
+    border: 1px transparent;
+    opacity: .69;
+    box-shadow: 0 0 8px 8px transparent;
+}
+  
+.nav {
+    float: right;
+}
+
+.nav-item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12.8px; 
+    color: white;
+    border: .1px solid #646262; 
+    margin: 6px;
+}
+
+.nav-item a:hover {
+    color: #90B4FE;
+}
+
+.nav-item a:focus {
+    color: red;
+}
+
+a {color: whitesmoke;}
+a:link {text-decoration: none; padding: 5px;}
