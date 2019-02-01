@@ -10,9 +10,9 @@ body {
 .nav-item {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12.8px;
-    border: .1px solid black;
+    border: .1px solid whitesmoke;
     margin: 2px;
-    background-color: whitesmoke;
+    background-color: #8d8d8d;
 }
 
 .nav-item a:hover {
@@ -24,11 +24,11 @@ body {
 }
 
 #phone a {
-    color: #0000a3;
+    color: #00005f;
 }
 
 a {
-    color: black;
+    color: whitesmoke;
 }
 
 a:link {
