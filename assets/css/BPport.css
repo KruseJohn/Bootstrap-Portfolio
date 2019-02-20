@@ -27,8 +27,8 @@ body {
 
 .nav-item {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 13.5px;
-    border: 1px solid #D6D4D9;
+    font-size: 11.5px;
+    border: .1px solid #8d8c91; 
     margin: 3px;
 }
 
@@ -41,12 +41,12 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: #dad8d8;
 }
 
 a:link {
     text-decoration: none;
-    padding: 7px;
+    padding: 2px 5px;
 }
 
 .background {
